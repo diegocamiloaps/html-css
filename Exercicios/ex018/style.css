@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+/* Pela recomendação da w3s usa-se sempre PX(pixel) ou EM (1 Em equivale a 16px)  para fonte size
+absolutas (cm, mm, in, pt, px, pc)
+relativas (em, ex, rem, vh, vw, %) 
+*/
+body{
+    /*font-family: sans-serif; 
+    font-size: 1em;
+
+    Simplificando a fonte pela ordem 
+    1 font-style 2-> fonte-weight 3-> font-size 4-> font-family
+    */
+    font: italic bolder 1em sans-serif;
+}
+h2{
+    font: bold 18px arial;
+    color: blue;
+}
