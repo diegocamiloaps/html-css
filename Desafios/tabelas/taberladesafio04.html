@@ -57,18 +57,18 @@
             <caption>Filmes Favoritos</caption>
             <thead>
                 <tr>
-                    <th rowspan="3">Área</th>
-                    <th colspan="2", rowspan="2">Disciplina</th>
-                    <th colspan="2">Notas</th>
-                    <th rowspan="2">Média</th>
+                    <th scope="col" rowspan="3">Área</th>
+                    <th scope="col" colspan="2", rowspan="2">Disciplina</th>
+                    <th scope="colgroup" colspan="2">Notas</th>
+                    <th scope="col" rowspan="2">Média</th>
                 <tr>
-                    <th>Nota 1</th>
-                    <th>Nota 2</th>
+                    <th scope="col">Nota 1</th>
+                    <th scope="col">Nota 2</th>
                 </tr>
             </thead>
             <tbody>
                 </tr>
-                    <th rowspan="5">Exatas</th>
+                    <th scope="colgroup" rowspan="5">Exatas</th>
                </tr>
                 <tr>
                     <td colspan="2">Matematica</td>
@@ -95,11 +95,11 @@
                     <td>0.0</td>
                 </tr>
                 <tr>
-                    <th class="mediaexatas" colspan="5">Média de Exatas</th>
+                    <th scope="row" class="mediaexatas" colspan="5">Média de Exatas</th>
                     <td class="mediaexatas">0.0</td>
                 </tr>
                 <tr>
-                    <th rowspan="2">Humanas</th>
+                    <th scope="colgroup" rowspan="2">Humanas</th>
                     <td colspan="2">História</td>
                     <td>0.0</td>
                     <td>0.0</td>
@@ -110,7 +110,7 @@
                     <td>0.0</td>
                     <td>0.0</td>
                 <tr>
-                    <th class="mediahumanas" colspan="5">Média de Humanas</th>
+                    <th scope="row" class="mediahumanas" colspan="5">Média de Humanas</th>
                     <td class="mediahumanas">0.0</td>
                 </tr>
             </tbody>
